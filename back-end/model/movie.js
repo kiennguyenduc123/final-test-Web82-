@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const movieSchema = new mongoose.Schema({
     id: {
-        type: String,
+        type: Number,
         required:true,
     },
     name: {
